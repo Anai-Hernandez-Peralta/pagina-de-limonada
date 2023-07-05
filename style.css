@@ -34,7 +34,7 @@ p {
 
 .menu {
     position: absolute;
-    top: 0;
+    top: 10px;
     left: 0;
     right: 0;
     display: flex;
@@ -53,7 +53,7 @@ p {
 
 .menu .navbar ul li a {
     font-size: 18px;
-    padding: 48px;
+    padding: 20px;
     color: #3f3f3f;
     display: block;
     font-weight: bold;
@@ -172,7 +172,7 @@ p {
     width: 50%;
 }
 
-h2, h1 {
+h1, h2 {
     font-size: 80px;
     line-height: 90px;
     color: #3F3F3F;
@@ -189,6 +189,7 @@ h2, h1 {
     border: 0;
     font-family: "Bebas Neue", cursive;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .btn-2:hover {
@@ -362,4 +363,144 @@ form {
     color: #7c7c7c;
     font-size: 16px;
     margin: 0;
+}
+
+@media(max-width:991px) {
+
+    .menu {
+        top: 0;
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .socials-1 {
+        display: none;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #3F3F3F;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    .menu .navbar ul li a {
+        color: #FFFFFF;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 130px 30px 80px 30px;
+        flex-direction: column;
+    }
+
+    .header-txt {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .header-txt h1 {
+        font-size: 90px;
+        line-height: 100px;
+    }
+
+    .header-img {
+        width: 100%;
+    }
+
+    .header-img img {
+        width: 250px;
+    }
+
+    .about {
+        padding: 30px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .ab1, .ab2, .ab3 {
+        display: none;
+    }
+
+    .about-img {
+        width: 100%;
+        order: 2;
+    }
+
+    .about-img img {
+        width: 250px;
+    }
+
+    .about-txt {
+        width: 100%;
+        text-align: center;
+    }
+
+    h1, h2{
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    .information {
+        padding: 30px 30px 100px 30px;
+    }
+
+    .in1, .in2, .in3 {
+        display: none;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+
+    .contact-table {
+        width: 100%;
+        margin-top: -120px;
+    }
+
+    .form-content {
+        padding: 30px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    .campo {
+        margin-top: 20px;
+    }
+
+    .footer {
+        padding: 30px 30px 0 30px;
+    }
+
+    .footers-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .link-img {
+        margin-bottom: 15px;
+    }
+
 }
