@@ -157,7 +157,6 @@ p {
     position: absolute;
     width: 150px;
     right: 0px;
-    left: 100%;
 }
 
 .about-img {
@@ -173,7 +172,7 @@ p {
     width: 50%;
 }
 
-h2 {
+h2, h1 {
     font-size: 80px;
     line-height: 90px;
     color: #3F3F3F;
@@ -239,7 +238,128 @@ h2 {
 
 .contact-table {
     padding: 25px;
-    box-shadow: 0 0 20px rgba;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 700px;
+    margin-top: -400px;
 }
 
+.contact-table span {
+    font-size: 40px;
+    color: #AA7D5E;
+}
 
+.contact-table h3 {
+    font-size: 60px;
+    color: #3F3F3F;
+    margin-bottom: 25px;
+}
+
+table {
+    text-align: left;
+}
+
+.ingredients {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ingredients td, .ingredients th {
+    border: 1px solid #DDDDDD;
+    padding: 8px;
+}
+
+.ingredients tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.ingredients tr:hover {
+    background-color: #DDDDDD;
+}
+
+.ingredients th {
+    padding: 12px 0;
+}
+
+form {
+    display: flex;
+}
+
+.campo {
+    padding: 17px 35px;
+    background-color: #f7f7f7;
+    border-radius: 25px;
+    margin-right: 15px;
+    border: 1px solid #e8e8e8;
+    outline: none;
+    color: #3F3F3F;
+}
+
+.campo::placeholder {
+    color: #a3a3a3;
+}
+
+.form-content {
+    padding: 100px 0 17px 0;
+    text-align: center;
+}
+
+.form-content h2 {
+    font-size: 50px;
+    color: #3F3F3F;
+    margin-bottom: 25px;
+}
+
+.footer {
+    border-top: 2px solid #e8e8e8;
+    padding: 58px 0 0 0;
+}
+
+.footers-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.link-img {
+    text-align: center;
+}
+
+.link-img img {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.socials-2 img {
+    width: 30px;
+    margin: 10px;
+}
+
+.link h3 {
+    font-size: 22px;
+    color: #3F3F3F;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 18px;
+    display: block;
+    color: #3F3F3F;
+    margin-bottom: 20px;
+}
+
+.link a:hiver {
+     color: #E06927;
+}
+
+.footer-copy {
+    padding: 25px 0;
+    text-align: center;
+    border-top: 1px solid #e8e8e8;
+}
+
+.footer-copy p {
+    color: #7c7c7c;
+    font-size: 16px;
+    margin: 0;
+}
