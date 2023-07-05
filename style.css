@@ -100,9 +100,13 @@ p {
 }
 
 p {
-    font-size: 20px;
+    font-size: 23px;
     color: #424242;
     margin-bottom: 35px;
+}
+
+.parrafo-pequeño {
+    font-weight:500;
 }
 
 .btn-1 {
@@ -148,7 +152,7 @@ p {
 .ab2 {
     position: absolute;
     width: 50px;
-    left: 750px;
+    left: 1000px;
     top: 450px;
     rotate: 380deg;
 }
